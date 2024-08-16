@@ -15,7 +15,7 @@ client.calls.create({
   from: fromNumber,
   twiml: `<Response>
            <Say> Enter press 1 </Say>
-            <Gather action="https://voice-kth0.onrender.com/handle-key" method="POST">
+            <Gather action="https://vtr-8vir.onrender.com/handle-key" method="POST">
             </Gather>
             <Say>We didn't receive any input. Goodbye!</Say>
           </Response>`,
